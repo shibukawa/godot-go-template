@@ -20,6 +20,16 @@ It contains one sample named `mycounter.go`. Create your own struct to extends G
 
 If you add your own struct, edit `/export/export.go`.
 
+## How to build
+
+It uses [mage](https://magefile.org/) as a task runner.
+
+You can build this folder like the following:
+
+```sh
+$ go run mage.go
+```
+
 ## License
 
 MIT
